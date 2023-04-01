@@ -1,0 +1,36 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
+  <div class="page">
+
+    <div class="login-side">
+        <div class="header">
+            <span class="login-text">Qeydiyyat</span>
+            <span class="login-detail">Xahiş olunur boş sahələri doldurun.</span>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Ad</span>
+            <input formControlName="firstName" type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Soyad</span>
+            <input formControlName="lastName" type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Email</span>
+            <input formControlName="email" type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Telefon nömrəsi</span>
+            <input formControlName="phoneNumber" type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">İstifadəçi adı</span>
+            <input formControlName="username" type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Şifrə</span>
+            <input formControlName="password" type="password" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <button class="btn btn-primary sign-in">Qeydiyyatdan keç</button>
+          <a class="btn btn-danger i-have-account" routerLink="/login">Hesabım var</a>
+    </div>
+</div></form>

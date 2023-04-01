@@ -1,0 +1,62 @@
+.page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .whole-container {
+        background-color: rgba(243, 243, 243, 0.801);
+        width: 70%;
+        border-radius: 30px;
+        margin-top: 30px;
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+
+            .image {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                img {
+                    width: 250px;
+                    border-radius: 50%;
+                }
+            }
+
+            .name {
+                padding: 30px;
+                flex:1;
+                display: flex;
+                flex-direction: column;
+                font-size: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                font-weight: bold;
+                .nickname{
+                    font-weight: 300;
+                }
+            }
+
+            .operation {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-start;
+                padding: 10px;
+                button{
+                    margin: 5px;
+                }
+            }
+        }
+
+        .details {
+            padding: 20px;
+        }
+    }
+}

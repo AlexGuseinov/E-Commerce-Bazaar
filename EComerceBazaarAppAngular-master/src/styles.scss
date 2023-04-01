@@ -1,0 +1,13 @@
+/*Customize Alertify*/
+$ajsMessageAndInfoColor: rgb(74, 159, 255);
+$ajsWarningColor: #ffcc00;
+
+.ajs-message {
+    background-color: $ajsMessageAndInfoColor;
+    border-radius: 5px;
+}
+
+.ajs-warning {
+    background-color: $ajsWarningColor !important;
+}
+/*Customize Alertify end*/
